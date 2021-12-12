@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo gallery UI</title>
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body>
+    <div class="container-main">
+      <div class="container">
+        <section class="wrapper">
+          <label for="switch">
+            <input type="checkbox" name="checkbox" class="switch" id="switch">
+          </label>
+        </section>
+        <header>
+          <div class="container-header">
+            <h1 class="logo" data-mode>Pic</h1>
+            <nav class="header-menu">
+              <button class="menu-mobile" data-menu="button" aria-expanded="false" aria-controls="menu"></button>
+              <ul data-menu="list">
+                <li><a href="#">Ilustração</a></li>
+                <li><a href="#">Icones</a></li>
+                <li><a href="#">Imagens</a></li>
+              </ul>
+            </nav>
+            <section class="search">
+              <form>
+                <input type="text" placeholder="Search">
+                <ion-icon name="search-outline"></ion-icon>
+              </form>
+            </section>
+          </div>
+        </header>
+
+        <main class="gallery"></main>
+        <button class="load-more" data-img="curated">Load More</button>
+        <footer>
+          <div class="container-footer">
+            <h1 class="logo">Pic</h1>
+            <section>
+              <h3>Contato</h3>
+              <ul>
+                <li><a href="">+55 21 9999-9999</a></li>
+                <li><a href="">contato@pic.com</a></li>
+              </ul>
+              <div class="social-media">
+                <a href="#">
+                  <img src="./images/insta.svg" width="32px" height="32px" alt="image">
+                </a>
+                <a href="#">
+                  <img src="./images/face.svg" width="32px" height="32px" alt="image"></a>
+                <a href="#">
+                  <img src="./images/yout.svg" width="32px" height="32px" alt="image"></a>
+              </div>
+            </section>
+
+            <section>
+              <h3>Informação</h3>
+              <ul>
+                <li><a href="#">Ilustração</a></li>
+                <li><a href="#">Icones</a></li>
+                <li><a href="#">Imagens</a></li>
+                <li><a href="#">Termos de uso</a></li>
+              </ul>
+            </section>
+          </div>
+          <p>Copyright &copy; Pic todos os direitos reservados.</p>
+        </footer>
+      </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/darkMode.js"></script>
+    <script src="./scripts/menuMobile.js"></script>
+  </body>
+</html>

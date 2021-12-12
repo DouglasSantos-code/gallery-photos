@@ -1,0 +1,24 @@
+:root {
+ --bg-body: #dbe2e9;
+ --bg-container: #fff;
+ --bg-conaiter-footer: linear-gradient(to bottom, #759abb, #6482af);
+ --logo-color: #141718;
+ --link-a: #262c2e;
+ --link-a-footer: #262c2e;
+ --container-shandow: #5e849c40;
+ --btn-bg-load: #000;
+ --btn-color-load: #f0ffff;
+ --footer-border: #e1e1e1;
+}
+.dark-mode:root {
+ --bg-body: #111111;
+ --bg-container: linear-gradient(90deg, #000, #0c0c0cbf, #000);
+ --bg-conaiter-footer: linear-gradient(to bottom,rebeccapurple, steelblue, turquoise);
+ --logo-color: #141718;
+ --link-a: #c4ccd0;
+ --link-a-footer: #141718;
+ --container-shandow: #fafafa40;
+ --btn-bg-load: #282a2d;
+ --btn-color-load: #a9bed1;
+ --footer-border: #9d9d9d;
+}
